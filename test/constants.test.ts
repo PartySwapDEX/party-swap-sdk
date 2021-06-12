@@ -1,4 +1,4 @@
-import { INIT_CODE_HASH } from '../src/constants'
+import { ChainId, INIT_CODE_HASH } from '../src/constants'
 
 //import { bytecode } from '@uniswap/v2-core/build/UniswapV2Pair.json'
 //import { keccak256 } from '@ethersproject/solidity'
@@ -14,7 +14,9 @@ describe('constants', () => {
     // })
     //TODO: Replace with real PancakePair.json
     it('matches computed bytecode hash', () => {
-      expect(INIT_CODE_HASH).toEqual('0x6a724fbf1bda25096504385dba68554a1569e634dacd57b788009cf25173ded7')
+      expect(INIT_CODE_HASH[ChainId.AVALANCHE]).toEqual(
+        '0x6a724fbf1bda25096504385dba68554a1569e634dacd57b788009cf25173ded7'
+      )
     })
   })
 })
