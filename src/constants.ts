@@ -25,7 +25,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 }
 
 export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x6a724fbf1bda25096504385dba68554a1569e634dacd57b788009cf25173ded7',
+  [ChainId.FUJI]: '0x1cb42ce668d8169bbcb5133235f4e3555e827bdcb65fcd07d3cb2f636c7b5dde', //init code pair hash from factory
   [ChainId.AVALANCHE]: '0xe1e9461caebef1b14301d343fb06be84a6abb3f69f4fbb98f81f45bfe14b165d'
 }
 
