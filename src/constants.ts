@@ -20,12 +20,12 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x146484CA5CAE42c58632817D74b5930172a4e044',
+  [ChainId.FUJI]: '0xff5ECe41095a0eD8b9C0A66337F34C4Df2f58b7f',
   [ChainId.AVALANCHE]: '0x7aA32b4C676B2C99F28dD257741c5cFAF1cF3354'
 }
 
 export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x1cb42ce668d8169bbcb5133235f4e3555e827bdcb65fcd07d3cb2f636c7b5dde', //init code pair hash from factory
+  [ChainId.FUJI]: '0xcbda9968f967420538484743593e9a8046f7d15613353b0b4b23e21d4a0ea8fb', //init code pair hash from factory
   [ChainId.AVALANCHE]: '0xe1e9461caebef1b14301d343fb06be84a6abb3f69f4fbb98f81f45bfe14b165d'
 }
 
