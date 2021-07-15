@@ -1,7 +1,7 @@
 {
   "name": "@partyswap-libs/sdk",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "🛠 An SDK for building applications on top of partyswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@partyswap-libs/party-swap-core": "^0.1.4",
+    "@partyswap-libs/party-swap-core": "^0.1.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
