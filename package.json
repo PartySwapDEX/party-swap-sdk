@@ -1,7 +1,7 @@
 {
   "name": "@partyswap-libs/sdk",
   "license": "MIT",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "🛠 An SDK for building applications on top of partyswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
